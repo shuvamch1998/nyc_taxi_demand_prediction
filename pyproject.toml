@@ -1,0 +1,18 @@
+[project]
+name = "spring25-taxi"
+version = "0.2.0"
+description = "NYC Taxi Demand prediction"
+authors = [
+    {name = "SHUVAM CHATTERJEE",email = "shuvamch@buffalo.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "notebook (>=7.3.2,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+packages = [{include = "src"}] 
